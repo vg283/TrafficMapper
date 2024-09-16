@@ -17,6 +17,7 @@ Assumptions/Constraints
 6. I have a very limited set of protocol numbers to name mappings statically defined in 
 `IANAProtocolMap` . Took a few protocols that were present in the sample data and used them. So while testing, we need to ensure that new protocols are added to this file beforehand, and then run the program with the log file. The current protocol numbers are only sufficient to run the end to end UT (more details on this UT below)
 7. Maven is required to build and run the program
+8. Maven needs configured to use Open JDK 22.
 
 Steps to build and run the program
 
